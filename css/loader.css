@@ -37,6 +37,7 @@
   margin-top: -80px;
   letter-spacing: 2px;
   display:none;
+  line-height:1.1
 }
 
 #release-countdown {
@@ -115,6 +116,7 @@
   #release-countdown {
     font-size:60px;
     margin-top:-100px;
+    margin-left:15px;
   }
 }
 
@@ -160,6 +162,7 @@
     #artist-name {
       top:82%;
       font-size:17px;
+      margin-left:-15px;
     }
 
 
@@ -200,6 +203,7 @@
         top:81%;
         font-size:19px;
         margin-top:-85px;
+        margin-left:-30px;
       }
 
 
@@ -230,6 +234,7 @@
       #artist-name {
         font-size: 21px;
         margin-top: 83px;
+        margin-left:-30px;
       }
     }
 
@@ -265,6 +270,7 @@
       #artist-name {
         font-size: 23px;
         margin-top: 72px;
+        margin-left:-30px;
       }
     }
 
@@ -295,6 +301,7 @@
        #artist-name {
          font-size: 20px;
          margin-top: -15px;
+         margin-left:30px;
        }
 
     }
@@ -580,5 +587,5 @@ and (min-resolution: 192dpi) {
 ul li {
   display:inline-block;
   padding-right: .6em;
-  padding-left: .6em;
+  padding-left: 2.0em;
 }

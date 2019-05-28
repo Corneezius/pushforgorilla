@@ -11,14 +11,15 @@ $(document).ready(function() {
 			$('#bars').show();
 		}, 3000);
 
-	  // setTimeout(function(){
-		// 	$('#project-title').hide();
-		// 	$('#artist-name').hide();
-	  // }, 6000);
-
+	//   setTimeout(function(){
+	// 		$('#project-title').hide();
+	// 		$('#artist-name').hide();
+	// 		$('#bars').hide();
+	//   }, 6000);
+	//
 	// 	//
   // setTimeout(function(){
 	// 	  $('body').addClass('loaded');
 	// 		$('body').removeClass("noscroll");
-	// 	}, 6400);
+	// 	}, 8000);
  });
