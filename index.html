@@ -12,6 +12,27 @@
 
       <link rel="stylesheet" href="css/loader.css" />
       	<!-- <link rel="stylesheet" type="text/css" href="css/load.css"> -->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6C0Q986SJM"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-6C0Q986SJM');
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79648722-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-79648722-2');
+        </script>
+
   </head>
 
   <body class="noscroll">
@@ -37,7 +58,9 @@
     		<ul id="artist-name">
       		<li>The Gorilla</li>
       		<li>Cornelius Range</li>
+          <li><button id="push" class="btn btn-primary">push</button></li>
         </ul>
+
      </div>
 			<!-- Panels open after time set in Blink.Js -->
 	   <div class="loader-section section-left"></div>
@@ -55,6 +78,15 @@
     crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script src="js/script.js"></script>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54f675d86cfade76"></script>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-database.js"></script>
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-analytics.js"></script>
+    <script src="js/push.js"></script>
+
   </body>
  </html>
